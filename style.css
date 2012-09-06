@@ -1,0 +1,30 @@
+header {
+  text-align: center !important;
+}
+
+header img {
+  border: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+article {
+  margin: 30px 0 30px 0 !important;
+}
+
+article h4 {
+  margin-bottom: 10px !important;
+}
+
+footer {
+  text-align: center;
+}
+
+.span8 {
+  margin: 0 auto !important;
+  float: none !important;
+}
