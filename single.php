@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div id="post">
-<?php while ( have_posts() ) : the_post(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <article class="row">
       <div class="span8">
         <h3><?php the_title(); ?></h3>

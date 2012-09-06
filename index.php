@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div id="blog-posts">
-<?php while ( have_posts() ) : the_post(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <article class="row">
       <div class="span8">
         <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
