@@ -42,6 +42,6 @@
   <nav>
     <ul class="nav nav-pills">
       <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Blog</a></li>
-      <li><a href="">About Me</a></li>
+      <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>/?page_id=22">About Me</a></li>
     </ul>
   </nav>
