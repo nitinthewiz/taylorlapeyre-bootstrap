@@ -1,3 +1,20 @@
+/*
+Theme Name: taylorlapeyre-bootstrap
+Theme URI: none
+Description: The theme for Taylor Lapeyre's website using Twitter's Bootstrap
+Author: Taylor Lapeyre
+Author URI: http://taylorlapeyre.me
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu (optional)
+
+License:
+License URI:
+
+*/
+
+@import url('css/bootstrap.min.css');
+@import url('css/bootstrap-responsive.min.css');
+
 header {
   text-align: center !important;
 }
