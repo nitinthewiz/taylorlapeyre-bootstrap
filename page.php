@@ -2,7 +2,7 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 	<article class="row">
-		<div class="span6">
+		<div class="span7">
 			<div id="page">
 				<?php the_content('Read more'); ?>
 			</div>

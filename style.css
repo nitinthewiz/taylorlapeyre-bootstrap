@@ -57,7 +57,7 @@ footer {
   padding-top: 40px;
 }
 
-.span6 {
+.span6, .span7 {
   margin: 0 auto !important;
   float: none !important;
 }
