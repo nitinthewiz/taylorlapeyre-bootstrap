@@ -3,7 +3,7 @@
   <div id="post">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <article class="row">
-      <div class="span8">
+      <div class="span6">
         <h3><?php the_title(); ?></h3>
         <p class="lead"><?php the_time('F jS, Y') ?></p>
         <?php the_content('Read more'); ?>

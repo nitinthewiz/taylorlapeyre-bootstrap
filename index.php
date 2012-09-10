@@ -3,7 +3,7 @@
   <div id="blog-posts">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <article class="row">
-      <div class="span8">
+      <div class="span6">
         <a href="<?php echo get_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
         <?php the_content('Continue Reading...'); ?>
         <a href="<?php echo get_permalink(); ?>"class="label label-info pull-right"><i class="icon-comment icon-white"></i></a>
