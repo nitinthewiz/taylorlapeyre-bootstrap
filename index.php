@@ -9,7 +9,9 @@
         <a href="<?php echo get_permalink(); ?>"class="label label-info pull-right"><i class="icon-comment icon-white"></i></a>
       </div>
     </article>
-<?php endwhile; else: ?>
+<?php endwhile; ?>
+  <?php the_bootstrap_content_nav( 'nav-below' ); ?>
+<?php else: ?>
   <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
   </div>
