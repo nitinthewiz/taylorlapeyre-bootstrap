@@ -1,12 +1,3 @@
-  
-  <ul class="pager">
-    <li class="previous">
-      <?php echo previous_page_not_post(); ?>
-    </li>
-    <li class="next">
-      <?php echo next_page_not_post(); ?>
-    </li>
-  </ul>
 
   <footer class="row">
     <div class="well">
