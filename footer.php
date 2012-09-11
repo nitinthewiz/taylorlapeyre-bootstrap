@@ -1,7 +1,7 @@
   
   <ul class="pager">
     <li class="previous">
-      <?php <?php echo previous_page_not_post(); ?>
+      <?php echo previous_page_not_post(); ?>
     </li>
     <li class="next">
       <?php echo next_page_not_post(); ?>
