@@ -7,11 +7,6 @@ $args = array(
 );
 add_theme_support( 'custom-header', $args );
 
-
-
-?>
-
-<?php
 /** template-tags.php
  * 
  * Implementation of the Custom Header feature
